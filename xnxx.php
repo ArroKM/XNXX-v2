@@ -102,7 +102,7 @@ class Sex {
 	        	                fclose($fp);
 				} else {
 					$ch = curl_init($dom);
-                                        $file = "/sdcard/".str_replace(" ","-",$ur["name"]).".mp4";
+                                        $file = "$HOME/storage/shared/xnxx-v2/".str_replace(" ","-",$ur["name"]).".mp4";
                                         $fp = fopen($file, 'wb');
                                         curl_setopt_array($ch, array(
                                                 CURLOPT_FILE => $fp,
