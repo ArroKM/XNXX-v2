@@ -10,7 +10,7 @@ Download Video Bok*p from xnxx :)
 
 ```java
 $ apt update && apt upgrade
-$ termux-setup-storage;mkdir $HOME/storage/shared/xnxx-v2
+$ termux-setup-storage;mkdir $HOME/storage/shared/XNXX-v2
 $ apt install git
 $ apt install php
 $ git clone https://github.com/ArroKM/XNXX-v2
