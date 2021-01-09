@@ -76,14 +76,15 @@ class Sex {
 			} else {
 				self::down($kep, $pil);
 			}
-		} else {
-			echo "[!] Pilihan tidak ada..\n";
 		}
 	    }
 	}
 	public function down($kep, $pil) {
 		$no = 0;
-                foreach ($kep as $ur) {
+		if ((int)$pil == 0) {
+			echo "[*] Pilihan tidak ada..\n";
+		} else {
+                    foreach ($kep as $ur) {
 			$no += 1;
 			if ($no >= (int)$pil) {
 	                	echo "[*] Sedang Men-download....\n";
@@ -91,7 +92,7 @@ class Sex {
 				$dom = $ur["lik"];
 				if ($dom == null) {
              				$ch = curl_init($dow);
-			     		$file = "/data/data/com.termux/files/home/storage/shared/xnxx-v2/".str_replace(" ","-",$ur["name"]).".mp4";
+			     		$file = "/sdcard/".str_replace(" ","-",$ur["name"]).".mp4";
 		             		$fp = fopen($file, 'wb');
 	        	     		curl_setopt_array($ch, array(
 	               		    		CURLOPT_FILE => $fp,
@@ -102,7 +103,7 @@ class Sex {
 	        	                fclose($fp);
 				} else {
 					$ch = curl_init($dom);
-                                        $file = "/data/data/com.termux/files/home/storage/shared/xnxx-v2/".str_replace(" ","-",$ur["name"]).".mp4";
+                                        $file = "/sdcard/".str_replace(" ","-",$ur["name"]).".mp4";
                                         $fp = fopen($file, 'wb');
                                         curl_setopt_array($ch, array(
                                                 CURLOPT_FILE => $fp,
@@ -116,6 +117,7 @@ class Sex {
 	                        echo "[*] Saved = ".$file."\n\n";
 		                break;
 	                }
+		    }
 		}
 	}
 }
