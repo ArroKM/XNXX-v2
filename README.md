@@ -20,7 +20,7 @@ $ php xnxx.php
 
 <h3>Website</h3>
 
-Untuk Versi webnya silahkan kuncungi ```java https://asecx.site/sex ```
+Untuk Versi webnya silahkan kuncungi https://asecx.site/sex
 
 <h3>Api</h3>
 
