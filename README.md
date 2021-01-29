@@ -17,3 +17,17 @@ $ git clone https://github.com/ArroKM/XNXX-v2
 $ cd XNXX-v2
 $ php xnxx.php
 ```
+
+<h3>Website</h3>
+
+Untuk Versi webnya silahkan kuncungi ```java https://asecx.site/sex ```
+
+<h3>Api</h3>
+
+```java
+https://api.asecx.site/v1/xnxx.php/search=indonesia&page=1
+```
+```java
+search  =  Masukan judul atau kata kunci untuk mencari video bokep
+page    =  Page Number
+```
