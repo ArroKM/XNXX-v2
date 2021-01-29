@@ -29,5 +29,5 @@ https://api.asecx.site/v1/xnxx.php/search=indonesia&page=1
 ```
 ```java
 search  =  Masukan judul atau kata kunci untuk mencari video bokep
-page    =  Page Number
+page    =  Nomor Halaman
 ```
