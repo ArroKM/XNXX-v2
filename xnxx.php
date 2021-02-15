@@ -1,4 +1,6 @@
 <?php
+//Coded by AseCx
+//XiuzCode (Open Source Team)
 include "simple_html_dom.php";
 include "data/getData.php";
 include "data/result.php";
