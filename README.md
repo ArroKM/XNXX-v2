@@ -20,4 +20,4 @@ $ php xnxx.php
 
 <h3>Website</h3>
 
-Untuk Versi webnya silahkan kuncungi https://asecx.site/sex
+Untuk Versi webnya silahkan kuncungi http://asecx.site/sex
