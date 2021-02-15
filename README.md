@@ -21,13 +21,3 @@ $ php xnxx.php
 <h3>Website</h3>
 
 Untuk Versi webnya silahkan kuncungi https://asecx.site/sex
-
-<h3>Api</h3>
-
-```java
-https://api.asecx.site/v1/xnxx.php/search=indonesia&page=1
-```
-```java
-search  =  Masukan judul atau kata kunci untuk mencari video bokep
-page    =  Nomor Halaman
-```
